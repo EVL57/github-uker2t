@@ -47,7 +47,6 @@ performFilter(filterBy: string): IProduct[]{
 ngOnInit(): void {
   this.products = this.productService.getProducts();
   this.filteredProducts = this.products;
-  this.listFilter = 'cart';
 }
 
 onRatingClicked(message: string): void {
