@@ -9,7 +9,7 @@ import { IProduct } from "./product";
 
 export class ProductService{
 
-  private productUrl = 'assetts/products/products.json';
+  private productUrl = 'assets/products/products.json';
   constructor(private http: HttpClient) {}
 
   getProducts(): Observable<IProduct[]> {
