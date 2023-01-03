@@ -12,11 +12,11 @@ export class ProductListComponent implements OnInit, OnDestroy{
   imageWidth: number = 50;
   imageMargin: number = 2;
   showImage: boolean = false;
-  private _listFilter: string = '';
   errorMessage: string = '';
   sub!: Subscription;
 
 
+  private _listFilter: string = '';
   get listFilter(): string {
     return this._listFilter;
   }
