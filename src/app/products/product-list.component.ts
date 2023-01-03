@@ -45,7 +45,7 @@ performFilter(filterBy: string): IProduct[]{
 }
 
 ngOnInit(): void {
-  this.productService.getProducts().subscribe({
+    this.productService.getProducts().subscribe({
     next: products => {
      this.products = products;
      this.filteredProducts = this.products;
